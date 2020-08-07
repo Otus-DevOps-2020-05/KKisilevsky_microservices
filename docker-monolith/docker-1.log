@@ -1,0 +1,6 @@
+REPOSITORY                                                          TAG                                        IMAGE ID            CREATED             SIZE
+kkisilevsky/ubuntu-tmp-file                                         latest                                     cbb3fe1e1664        49 seconds ago      64.2MB
+ubuntu                                                              18.04                                      2eb2d388e1a2        11 days ago         64.2MB
+hello-world                                                         latest                                     bf756fb1ae65        7 months ago        13.3kB
+
+# Образ является основой для создания контейнера; в инспекции контейнера есть секции описывающее его параметры запуска (например NetworkSettings)
