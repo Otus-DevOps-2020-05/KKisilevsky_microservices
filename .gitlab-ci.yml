@@ -17,6 +17,8 @@ before_script:
 build_job:
   stage: build
   script:
+    - export $DATABASE_URL
+    - systemctl start mongo
     - puma
 
 test_unit_job:
