@@ -17,8 +17,7 @@ before_script:
 build_job:
   stage: build
   script:
-    - mongod
-    - puma
+    - echo "Build"
 
 test_unit_job:
   stage: test
