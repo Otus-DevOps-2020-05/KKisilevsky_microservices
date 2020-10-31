@@ -84,3 +84,4 @@ kubectl proxy
 
 http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/#!/login
 
+cat tls.key | base64 # шифруем для секрета
