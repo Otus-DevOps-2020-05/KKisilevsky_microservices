@@ -11,3 +11,5 @@ docker/*.env
 *.tfvars
 kubernetes/terraform-gke/.terraform/
 terraform-gke-keyfile.json
+*.crt
+*.key

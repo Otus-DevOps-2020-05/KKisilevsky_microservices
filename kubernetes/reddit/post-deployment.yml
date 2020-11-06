@@ -5,18 +5,21 @@ metadata:
   labels:
     app: reddit
     component: post
+    access: to_mongo
 spec:
   replicas: 1
   selector:
     matchLabels:
       app: reddit
       component: post
+      access: to_mongo
   template:
     metadata:
       name: post
       labels:
         app: reddit
         component: post
+        access: to_mongo
     spec:
       containers:
       - image: kkisilevsky/post
@@ -24,3 +27,4 @@ spec:
         env:
           - name: POST_DATABASE_HOST
             value: post-db
+
