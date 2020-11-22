@@ -2,7 +2,7 @@
 module "gke" {
   source                     = "terraform-google-modules/kubernetes-engine/google"
   version                    = "9.3.0"
-  kubernetes_version         = "1.16.13-gke.401"
+  kubernetes_version         = "1.16.15-gke.4300"
   regional                   = false
   create_service_account     = false
   remove_default_node_pool   = true

@@ -1,0 +1,17 @@
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: review-limit-range
+  namespace: review
+spec:
+  limits:
+  - default:
+      memory: 256Mi
+    defaultRequest:
+      memory: 64Mi
+    max:
+      memory: 3Gi
+    min:
+      memory: 64Mi
+    type: Container
